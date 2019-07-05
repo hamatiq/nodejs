@@ -7,4 +7,6 @@ why nodejs
     easy supported and asyncrious by nature
     easy api building
     non blocking i/o
-
+    allow multiple requests at the same time
+    over lap wait time
+    npm packages
