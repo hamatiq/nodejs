@@ -4,6 +4,13 @@ const notes = require('./notes.js');
 
 const contant = notes('notes.txt');
 
-console.log(contant);
+const command = process.argv[2];
 
-console.log(chalk.green('hello world'));
+console.log(process.argv);
+
+
+if (command == 'add') {
+    console.log('Adding note!');
+} else if (command == 'remove') {
+    console.log('removeing note!');
+}
